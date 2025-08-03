@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about h1 {
+    margin-bottom: 12px;
+}
+
+.experience-container h1 {
+    color: green;
+    font-weight: bold;
+}
+
+.experience-container {
+    margin-top: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.experience-container h2 {
+    margin-top: 10px;
+}
+
+.career {
+   margin-top: 15px;
+}
+
+.career p {
+   padding: 10px 0;
+
+}
+
